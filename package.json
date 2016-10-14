@@ -1,5 +1,5 @@
 {
-  "name": "github-integration",
+  "name": "github-integration-test",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danielstern/integration-test-repo.git"
+    "url": "https://github.com/kasunkv/github-integration-test"
   },
-  "author": "",
+  "author": "Kasun Kodagoda",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/danielstern/integration-test-repo/issues"
+    "url": "https://github.com/kasunkv/github-integration-test/issues"
   },
-  "homepage": "https://github.com/danielstern/integration-test-repo#readme",
+  "homepage": "https://github.com/kasunkv/github-integration-test#readme",
   "dependencies": {
     "body-parser": "^1.15.0",
     "express": "^4.13.4",
