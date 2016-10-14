@@ -1,4 +1,5 @@
 "use strict";
+
 console.log("Running webapp...");
 
 let Express = require('express');
@@ -15,3 +16,5 @@ app.listen(port, () => {
 	//console.log(`Running webhook listener...`);
 	console.log(`App listening on port ${port}`);
 });
+
+require('./webhook')(app);
